@@ -1,5 +1,5 @@
 import math
-from Circulo import Circulo
+from Circulo import Circulo1
 from Rectangulo import Rectangulo
 from Cuadrado import Cuadrado
 from Triangulo import Triangulo
