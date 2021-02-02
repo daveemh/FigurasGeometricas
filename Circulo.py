@@ -4,12 +4,11 @@ class Circulo:
     
 
     def area(self,radio):
-        area= math.pi*(radio**2)
+        self.area= math.pi*(radio**2)
         print('El area es: {:,.2f}'.format(self.area))
-        return area
+        return self.area
 
     def perimetro(self,radio):
-        perimetro=2*math.pi*radio
+        self.perimetro=2*math.pi*radio
         print('El perimetro es: {:,.2f}'.format(self.perimetro))
-        return perimetro
-    
+        return self.perimetro
